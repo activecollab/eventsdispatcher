@@ -6,7 +6,8 @@ This package offers simple events dispatcher, with listeners. Key concepts:
 
 1. Events are not arbitrary strings, but instances that encapsulate all relevant event data,
 1. When you specify a listener, you specify an event class (or interface) that you want to listen to,
-1. You can listen to entire classes of events, by specifying general enough event class (or interface).
+1. You can listen to entire classes of events, by specifying general enough event class (or interface),
+1. Listeners are callables, and event is always passed to it as the first (and only) argument.
 
 General listener example:
 
