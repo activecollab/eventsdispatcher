@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1491334213">
+  <project timestamp="1491334213">
+    <package name="ActiveCollab\EventsDispatcher\Events">
+      <file name="/Users/ilija/Dropbox/Projects/Components/EventsDispatcher/src/Events/Event.php">
+        <class name="Event" namespace="ActiveCollab\EventsDispatcher\Events">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="15" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/Users/ilija/Dropbox/Projects/Components/EventsDispatcher/src/Events/EventInterface.php">
+      <metrics loc="15" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="ActiveCollab\EventsDispatcher">
+      <file name="/Users/ilija/Dropbox/Projects/Components/EventsDispatcher/src/EventsDispatcher.php">
+        <class name="EventsDispatcher" namespace="ActiveCollab\EventsDispatcher">
+          <metrics complexity="12" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="19" coveredelements="19"/>
+        </class>
+        <line num="21" type="method" name="trigger" visibility="public" complexity="4" crap="4" count="5"/>
+        <line num="23" type="stmt" count="5"/>
+        <line num="24" type="stmt" count="5"/>
+        <line num="25" type="stmt" count="5"/>
+        <line num="26" type="stmt" count="5"/>
+        <line num="31" type="stmt" count="5"/>
+        <line num="34" type="method" name="shouldCallListeners" visibility="private" complexity="1" crap="1" count="5"/>
+        <line num="36" type="stmt" count="5"/>
+        <line num="39" type="method" name="listen" visibility="public" complexity="3" crap="3" count="7"/>
+        <line num="41" type="stmt" count="7"/>
+        <line num="42" type="stmt" count="5"/>
+        <line num="45" type="stmt" count="5"/>
+        <line num="47" type="stmt" count="5"/>
+        <line num="50" type="method" name="validateEventType" visibility="private" complexity="4" crap="4" count="7"/>
+        <line num="52" type="stmt" count="7"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="6"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="5"/>
+        <metrics loc="62" ncloc="57" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="19" coveredelements="19"/>
+      </file>
+    </package>
+    <file name="/Users/ilija/Dropbox/Projects/Components/EventsDispatcher/src/EventsDispatcherInterface.php">
+      <metrics loc="20" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="4" loc="112" ncloc="92" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="19" coveredelements="19"/>
+  </project>
+</coverage>
