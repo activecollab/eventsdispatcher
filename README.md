@@ -24,7 +24,7 @@ $dispatcher->listen(LicenseRenewedEventInterface::class, function (LicenseRenewe
 });
 ```
 
-To specify a global listener, that handles all events, just to highly general with the specification:
+To specify a global listener, that handles all events, just go highly general with the specification:
 
 ```php
 <?php
@@ -40,7 +40,9 @@ $dispatcher->listen(EventInterface::class, function (EventInterface $event) {
 });
 ```
 
-To trigger an event, call `trigger()` method with event as one (and only argument):
+Similar approach can be used to handle a class of events. Instead of using the base `EventInterface`, register listener to a class, or interface that all events of a targeted type extend, or implement.
+
+To trigger an event, call `trigger()` method with event as the first (and only) argument:
 
 ```php
 <?php
